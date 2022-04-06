@@ -4,7 +4,7 @@ const express = require('express')
 const router = express.Router();
 const User = require('../../models/customer/customer.model')
 const Product = require('../../models/admin/prod.model');
-const Support = require('../../models/customer/support.model');
+const Support = require('../../models/admin/admin.support.model');
 const { request } = require('express');
 router.post('/sign-up',(request,response)=>{
 

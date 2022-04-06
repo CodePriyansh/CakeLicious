@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 mongoose.connect("mongodb+srv://CodePriyanshu786:pathak123@mucluster.utw9l.mongodb.net/CakeLicious?retryWrites=true&w=majority")
 const cors = require('cors')
 app.use(cors())
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8080;
 
 // const cache = require('route-cache')
 
